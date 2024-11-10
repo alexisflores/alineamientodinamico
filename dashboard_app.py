@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
-
+#test
 # Función para cargar y mostrar cada tablero junto con su OKR y gráfico correspondiente
 def load_dashboard(file_path, okr, description, chart_type="bar", x_col=None, y_col=None):
     data = pd.read_csv(file_path)
